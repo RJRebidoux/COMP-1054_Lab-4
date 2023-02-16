@@ -1,0 +1,52 @@
+/* General */
+
+body {
+  color: #000;
+  font: 28px 'Times New Roman', Times, serif;
+  /*Lab 4 2.) new background*/
+  background-image: url(assets/pexels-didier-11710349.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* Typography */
+
+.wrapper {
+  background-color: rgba(110, 110, 110, 90%);
+  width: 80%;
+  border: 5px solid black;
+  border-radius: 8px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+ul li:nth-child(odd) {
+  font-weight: bold;
+}
+
+footer>p {
+  font-weight: bold;
+}
+
+/* Layout  & Appearance */
+
+#name {
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  width: 90%;
+  background-color: #000;
+  /*Lab 4 3.) applying two filters to the original photo*/
+  filter: grayscale() drop-shadow(7px 7px 7px #000);
+}
+
+img:hover {
+  filter: grayscale(0%) drop-shadow(7px 7px 7px #000);
+}
+
+footer {
+  padding-top: 5px;
+}
